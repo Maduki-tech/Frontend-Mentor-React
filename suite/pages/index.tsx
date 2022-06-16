@@ -1,0 +1,15 @@
+import type { NextPage } from "next";
+import Header from "../components/Header/Header";
+
+const Home: NextPage = () => {
+    return (
+        <div>
+			<Header/>
+			{/* Requestbeta */}
+			{/* Quote */}
+			{/* Footer */}
+        </div>
+    );
+};
+
+export default Home;
